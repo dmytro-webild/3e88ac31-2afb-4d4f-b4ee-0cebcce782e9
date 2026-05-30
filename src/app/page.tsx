@@ -31,35 +31,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Games",
-          id: "game-showcase",
-        },
+          name: "Games",          id: "game-showcase"},
         {
-          name: "Projects",
-          id: "future-projects",
-        },
+          name: "Projects",          id: "future-projects"},
         {
-          name: "Connect",
-          id: "social-media",
-        },
+          name: "Connect",          id: "social-media"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="kingpm08"
       button={{
-        text: "Hire Me",
-        href: "#contact",
-      }}
+        text: "Hire Me",        href: "#contact"}}
     />
   </div>
 
@@ -69,9 +55,7 @@ export default function LandingPage() {
       description="Welcome to kingpm08 Universe. Game Developer & Web Creator, crafting immersive experiences and powerful digital solutions."
       buttons={[
         {
-          text: "Explore My Work",
-          href: "#game-showcase",
-        },
+          text: "Explore My Work",          href: "#game-showcase"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/anime-car-city_23-2151710936.jpg"
       imageAlt="Futuristic pixel art cityscape with neon lights"
@@ -84,24 +68,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       heading={[
         {
-          type: "text",
-          content: "About My Journey as ",
-        },
+          type: "text",          content: "About My Journey as "},
         {
-          type: "image",
-          src: "http://img.b2bpic.net/free-photo/blue-white-keyboard-high-angle_23-2149680245.jpg",
-          alt: "Game developer and web creator workspace",
-        },
+          type: "image",          src: "http://img.b2bpic.net/free-photo/blue-white-keyboard-high-angle_23-2149680245.jpg",          alt: "Game developer and web creator workspace"},
         {
-          type: "text",
-          content: " kingpm08",
-        },
+          type: "text",          content: " kingpm08"},
       ]}
       buttons={[
         {
-          text: "View My Resume",
-          href: "#",
-        },
+          text: "View My Resume",          href: "#"},
       ]}
     />
   </div>
@@ -111,28 +86,14 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
+      animationType="slide-up"
       products={[
         {
-          id: "game-1",
-          name: "Dynamic Combat",
-          price: "Coming Soon",
-          imageSrc: "http://img.b2bpic.net/free-photo/anime-casino-illustration_23-2151726851.jpg",
-          imageAlt: "Game screenshot of character in combat",
-        },
+          id: "game-1",          name: "Dynamic Combat",          price: "Coming Soon",          imageSrc: "http://img.b2bpic.net/free-photo/anime-casino-illustration_23-2151726851.jpg",          imageAlt: "Game screenshot of character in combat"},
         {
-          id: "game-2",
-          name: "Epic Boss Battles",
-          price: "Coming Soon",
-          imageSrc: "http://img.b2bpic.net/free-photo/8-bits-fisherman-characters-gaming-assets_23-2151143748.jpg",
-          imageAlt: "Game screenshot of boss battle",
-        },
+          id: "game-2",          name: "Epic Boss Battles",          price: "Coming Soon",          imageSrc: "http://img.b2bpic.net/free-photo/8-bits-fisherman-characters-gaming-assets_23-2151143748.jpg",          imageAlt: "Game screenshot of boss battle"},
         {
-          id: "game-3",
-          name: "Vibrant Worlds",
-          price: "Coming Soon",
-          imageSrc: "http://img.b2bpic.net/free-photo/pixel-art-river-landscape-illustration_23-2151793163.jpg",
-          imageAlt: "Game screenshot of peaceful town",
-        },
+          id: "game-3",          name: "Vibrant Worlds",          price: "Coming Soon",          imageSrc: "http://img.b2bpic.net/free-photo/pixel-art-river-landscape-illustration_23-2151793163.jpg",          imageAlt: "Game screenshot of peaceful town"},
       ]}
       title="Pixel Saga: A Dragon Ball Inspired Adventure"
       description="Dive into a vibrant 2D pixel art world, where classic martial arts action meets an epic narrative. Battle unique foes, discover hidden powers, and embark on a quest inspired by legendary anime."
@@ -148,38 +109,11 @@ export default function LandingPage() {
       description="A sneak peek into upcoming web development and artificial intelligence projects that blend creativity with cutting-edge technology."
       blogs={[
         {
-          id: "project-1",
-          category: "Web Dev",
-          title: "Responsive Portfolio Platform",
-          excerpt: "Developing a dynamic and highly responsive portfolio site with interactive components and seamless user experience.",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-render-modern-technology-background-with-digital-particles-design_1048-15444.jpg",
-          imageAlt: "Abstract web development concept",
-          authorName: "kingpm08",
-          authorAvatar: "http://img.b2bpic.net/free-photo/background-with-printed-circuit-board-concept-modern-technologies_169016-61023.jpg",
-          date: "Coming Soon",
-        },
+          id: "project-1",          category: "Web Dev",          title: "Responsive Portfolio Platform",          excerpt: "Developing a dynamic and highly responsive portfolio site with interactive components and seamless user experience.",          imageSrc: "http://img.b2bpic.net/free-photo/3d-render-modern-technology-background-with-digital-particles-design_1048-15444.jpg",          imageAlt: "Abstract web development concept",          authorName: "kingpm08",          authorAvatar: "http://img.b2bpic.net/free-photo/background-with-printed-circuit-board-concept-modern-technologies_169016-61023.jpg",          date: "Coming Soon"},
         {
-          id: "project-2",
-          category: "AI/ML",
-          title: "Intelligent Game NPC Behavior",
-          excerpt: "Implementing AI-driven non-player character behaviors for more immersive and challenging gaming experiences.",
-          imageSrc: "http://img.b2bpic.net/free-photo/computer-screen-with-ai-program-turning-text-prompt-into-videos-results_482257-125496.jpg",
-          imageAlt: "Abstract AI neural network",
-          authorName: "kingpm08",
-          authorAvatar: "http://img.b2bpic.net/free-photo/cyberpunk-illustration-with-neon-colors-futuristic-technology_23-2151672067.jpg",
-          date: "Coming Soon",
-        },
+          id: "project-2",          category: "AI/ML",          title: "Intelligent Game NPC Behavior",          excerpt: "Implementing AI-driven non-player character behaviors for more immersive and challenging gaming experiences.",          imageSrc: "http://img.b2bpic.net/free-photo/computer-screen-with-ai-program-turning-text-prompt-into-videos-results_482257-125496.jpg",          imageAlt: "Abstract AI neural network",          authorName: "kingpm08",          authorAvatar: "http://img.b2bpic.net/free-photo/cyberpunk-illustration-with-neon-colors-futuristic-technology_23-2151672067.jpg",          date: "Coming Soon"},
         {
-          id: "project-3",
-          category: "Full Stack",
-          title: "Cloud-Based Gaming Platform",
-          excerpt: "Designing and building a scalable cloud platform for hosting and streaming indie games, focusing on low-latency streaming.",
-          imageSrc: "http://img.b2bpic.net/free-photo/desktop-pc-wooden-desk-showcases-infographics-client-reach-data_482257-126876.jpg",
-          imageAlt: "Minimalist web interface design",
-          authorName: "kingpm08",
-          authorAvatar: "http://img.b2bpic.net/free-photo/3d-graph-computer-illustration_23-2151884885.jpg",
-          date: "Coming Soon",
-        },
+          id: "project-3",          category: "Full Stack",          title: "Cloud-Based Gaming Platform",          excerpt: "Designing and building a scalable cloud platform for hosting and streaming indie games, focusing on low-latency streaming.",          imageSrc: "http://img.b2bpic.net/free-photo/desktop-pc-wooden-desk-showcases-infographics-client-reach-data_482257-126876.jpg",          imageAlt: "Minimalist web interface design",          authorName: "kingpm08",          authorAvatar: "http://img.b2bpic.net/free-photo/3d-graph-computer-illustration_23-2151884885.jpg",          date: "Coming Soon"},
       ]}
     />
   </div>
@@ -192,20 +126,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "5+",
-          description: "Years Experience",
-        },
+          id: "m1",          value: "5+",          description: "Years Experience"},
         {
-          id: "m2",
-          value: "3",
-          description: "Games Shipped",
-        },
+          id: "m2",          value: "3",          description: "Games Shipped"},
         {
-          id: "m3",
-          value: "10+",
-          description: "Web Projects",
-        },
+          id: "m3",          value: "10+",          description: "Web Projects"},
       ]}
       title="My Achievements & Milestones"
       description="Key statistics showcasing my dedication to game development and web creation."
@@ -217,14 +142,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       names={[
-        "YouTube",
-        "TikTok",
-        "GitHub",
-        "Instagram",
-        "Twitter",
-        "LinkedIn",
-        "Itch.io",
-      ]}
+        "YouTube",        "TikTok",        "GitHub",        "Instagram",        "Twitter",        "LinkedIn",        "Itch.io"]}
       title="Connect with kingpm08"
       description="Follow my journey in game development and web creation across these platforms."
     />
@@ -234,16 +152,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "animated-grid",
-      }}
+        variant: "animated-grid"}}
       tag="Let's Collaborate"
       title="Ready to Build Something Amazing?"
       description="Whether it's a game idea, a web project, or just a chat, I'm always open to new opportunities. Reach out and let's create!"
       buttons={[
         {
-          text: "Get in Touch",
-          href: "mailto:kingpm08@example.com",
-        },
+          text: "Get in Touch",          href: "mailto:kingpm08@example.com"},
       ]}
     />
   </div>
@@ -252,45 +167,27 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Quick Links",
-          items: [
+          title: "Quick Links",          items: [
             {
-              label: "Home",
-              href: "#hero",
-            },
+              label: "Home",              href: "#hero"},
             {
-              label: "Games",
-              href: "#game-showcase",
-            },
+              label: "Games",              href: "#game-showcase"},
             {
-              label: "Projects",
-              href: "#future-projects",
-            },
+              label: "Projects",              href: "#future-projects"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
         {
-          title: "Connect",
-          items: [
+          title: "Connect",          items: [
             {
-              label: "YouTube",
-              href: "https://youtube.com/kingpm08",
-            },
+              label: "YouTube",              href: "https://youtube.com/kingpm08"},
             {
-              label: "TikTok",
-              href: "https://tiktok.com/kingpm08",
-            },
+              label: "TikTok",              href: "https://tiktok.com/kingpm08"},
             {
-              label: "GitHub",
-              href: "https://github.com/kingpm08",
-            },
+              label: "GitHub",              href: "https://github.com/kingpm08"},
             {
-              label: "Instagram",
-              href: "https://instagram.com/kingpm08",
-            },
+              label: "Instagram",              href: "https://instagram.com/kingpm08"},
           ],
         },
       ]}
